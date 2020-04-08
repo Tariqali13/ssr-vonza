@@ -1,0 +1,104 @@
+  .von-icon-mail {
+    display: inline-block;
+    width: 30px;
+    height: 16px;
+    background-image: url("../../images/icon-mail.png");
+    background-position: 0 3px;
+    background-repeat: no-repeat;
+  }
+
+  .von-icon-phone {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background-image: url("../../images/icon-phone.png");
+    background-position: 0 2px;
+    background-repeat: no-repeat;
+  }
+
+  .von-icon-fb {
+    display: block;
+    width: 27px;
+    height: 27px;
+    background-image: url("../../images/icon-fb.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+
+  .von-icon-ig {
+    display: block;
+    width: 27px;
+    height: 27px;
+    background-image: url("../../images/icon-ig.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+
+  .von-icon-ut {
+    display: block;
+    width: 27px;
+    height: 27px;
+    background-image: url("../../images/icon-ut.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+
+  .von-icon-pi {
+    display: block;
+    width: 27px;
+    height: 27px;
+    background-image: url("../../images/icon-pi.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+
+  .von-icon-tw {
+    display: block;
+    width: 27px;
+    height: 27px;
+    background-image: url("../../images/icon-tw.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+
+  .vonza-support-icon {
+    display: block;
+    width: 51px;
+    height: 51px;
+    background-image: url("../../images/icon-support-icon.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+
+  .von-icon-play {
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-image: url("../../images/icon-play.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+
+  .vonza-icon-arrow-next {
+    display: block;
+    width: 33px;
+    height: 21px;
+    background-image: url("../../images/icon-next.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+
+  .vonza-icon-arrow-prev {
+    display: block;
+    width: 33px;
+    height: 21px;
+    background-image: url("../../images/icon-prev.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    overflow: hidden;
+  }

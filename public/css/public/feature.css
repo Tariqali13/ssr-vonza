@@ -1,0 +1,229 @@
+.hero-features {
+    background: #e2effc url("../../images/features/hero.png") no-repeat 100%;
+}
+
+.features-main .sec {
+    padding: 140px 0 100px;
+}
+
+.features-main .sec.features-section {
+    background: url("../../images/features/sec-bg.png") no-repeat;
+    background-position: 50% 100%;
+    background-size: 100% 70%;
+}
+
+.features-main .sec-header {
+    text-align: center;
+}
+
+.features-main .sec-header h2 {
+    font-size: 13px;
+    color: rgba(22, 44, 88, 0.4);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.769;
+}
+
+.features-main .sec-header p {
+    font-size: 28px;
+    color: #162c58;
+    line-height: 1.286;
+    text-align: center;
+}
+
+.feature-box.signup {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.feature-box.signup h3 {
+    margin-bottom: 0;
+    line-height: 24px;
+}
+
+.feature-box.signup p {
+    margin: 0 0 30px;
+}
+
+.feature-box.signup .btn {
+    margin-bottom: 15px;
+    max-width: 160px;
+}
+
+.feature-box.signup .box-icon {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.sec-custom {
+    position: relative;
+}
+
+.sec-custom .section-bg {
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+}
+
+.sec-custom .quote-holder .quote-box {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    position: relative;
+}
+
+.sec-custom .quote-holder .quote-box .fb-icon {
+    position: absolute;
+    top: 20px;
+    left: -140px;
+}
+
+.sec-custom .quote-holder .quote-box .blog-icon {
+    position: absolute;
+    top: 140px;
+    right: -40px;
+}
+
+.sec-custom .quote-holder .quote-box .quotes {
+    top: 61%;
+}
+
+.sec-custom.integration .quote-box .hear-icon {
+    position: absolute;
+    left: 20px;
+    top: 540px;
+}
+
+.sec-custom.integration .quote-box .record-icon {
+    position: absolute;
+    left: -110px;
+    top: 350px;
+}
+
+.sec-custom .cust-sec-3 .link-icon {
+    position: absolute;
+    left: -110px;
+    top: 350px;
+}
+
+.sec-custom .cust-sec-3 .twitter-icon {
+    position: absolute;
+    left: 20px;
+    top: 540px;
+}
+
+.sec-marketing.sec {
+    padding: 45px 0 0;
+}
+
+.sec.sec-analytics {
+    padding: 150px 0 0;
+}
+
+.features-main .generate-profit-form {
+    padding: 0 0 0;
+}
+
+.features-main .generate-profit-form-2 {
+    padding: 100px 0;
+}
+
+.sec-learning .sub-sec-1 .unique-list {
+    max-width: 500px;
+}
+
+.sec-learning .sec-header {
+    margin: 0 0 100px;
+}
+
+.sec-learning.sec {
+    padding: 40px 0;
+}
+
+.sec-hosting .row>div {
+    margin: 0 0 30px;
+}
+
+.sec-hosting.sec {
+    padding: 0 0 0;
+}
+
+.sec-hosting .sec-header {
+    margin: 0 0 100px;
+}
+
+.sec-hosting .feature-box h3 {
+    margin: 15px 0 0;
+}
+
+.sec-hosting .feature-box p {
+    margin: 20px 0 0;
+}
+
+.sec-analytics .sub-sec-1 .bullet-list {
+    max-width: 500px;
+    padding: 150px 0;
+}
+
+.learning-sec-2 .quote-box {
+    position: relative;
+}
+
+.learning-sec-2 .quote-text {
+    z-index: 10;
+}
+
+.learning-sec-2 .quotes {
+    position: absolute;
+    top: 58% !important;
+}
+
+.learning-sec-2 .dice {
+    position: absolute;
+    top: 30px;
+    right: -60px;
+}
+
+.learning-sec-2 .share {
+    position: absolute;
+    top: 30px;
+    left: -40px;
+}
+
+.learning-sec-2 .exchange {
+    position: absolute;
+    bottom: -50px;
+    left: 10px;
+    z-index: 8;
+}
+
+.learning-sec-2 .gear {
+    position: absolute;
+    bottom: 87px;
+    right: -70px;
+}
+
+.sub-sec-3 .bullet-list {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.sub-sec-4 .container {
+    background: url("../../images/features/map.png") no-repeat 100%;
+}
