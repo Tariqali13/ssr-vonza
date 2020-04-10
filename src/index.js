@@ -4,13 +4,18 @@ import Loadable from "react-loadable";
 import { Provider as ReduxProvider } from "react-redux";
 import { Router } from "react-router-dom";
 import window from "global";
-import "./index.css";
 import App from "./components/App";
 import configureStore from "./store/configureStore";
 // import { browserHistory as history, } from "react-router";
 // import registerServiceWorker from './registerServiceWorker';
-import { createMemoryHistory } from "history";
-export const history = createMemoryHistory();
+import ExecutionEnvironment from "exenv";
+import { createMemoryHistory, createBrowserHistory } from "history";
+export let history;
+if (ExecutionEnvironment.canUseDOM) {
+  history = createBrowserHistory();
+} else {
+  createMemoryHistory();
+}
 
 const store = configureStore(window.__REDUX_STATE__ || {});
 
