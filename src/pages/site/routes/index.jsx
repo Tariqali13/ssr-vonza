@@ -72,4 +72,4 @@ const MarketingSiteRoutes = () => {
   );
 };
 
-export default MarketingSiteRoutes;
+export { MarketingSiteRoutes };

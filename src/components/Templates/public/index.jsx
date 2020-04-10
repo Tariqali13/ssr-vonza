@@ -8,6 +8,8 @@ import ReactGA from "react-ga";
 import window from "global";
 import { history } from "../../../index";
 import ExecutionEnvironment from "exenv";
+console.log("history",history);
+
 const PublicTemplate = ({
   children,
   pageTitle,
